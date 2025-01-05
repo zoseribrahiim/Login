@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ============================== */
+
+.back-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.819), rgba(0, 0, 0, 0.37)),url("../uploads/see.jpeg");
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.content h1{
+    font-size: 8em;
+}
+
+.back-img h1::after{
+    content: "";
+    width: 60%;
+    padding-block: 2px;
+    background-color: rgb(73, 190, 214) ;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    transform: translate(-50%);
+}
+
+#home a{
+    font-family: cursive;
+}

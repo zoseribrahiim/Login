@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart logIn">
+    <title></title>
+    <!-- fontsawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontsawesome -->
+    <!-- css -->
+    <link rel="stylesheet" href="Bootstrab/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- css -->
+     <link rel="shortcut icon" href="./PH/6NxGsO.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="login">
+        <div class="d-lg-flex">
+            <div class="col-lg-6 back-img text-light vh-100 d-flex align-items-center justify-content-center">
+                <div class="content w-75">
+                    <h1 class="position-relative pb-2 mb-3 fw-lighter w-100">
+                        Hello World!
+                    </h1>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="form pt-2">
+                    <h2 class="fw-bolder fs-1">
+                        Register
+                    </h2>
+                    <p class="lead">
+                        <span>Already You have an account? </span><button
+                            class="text-info fw-lighter border-0 bg-transparent anqure">LogIn</button>
+                    </p>
+                    <div class="pt-2 w-100 position-relative">
+                        <div class="mb-3">
+                            <label for="LogName" class="form-label fw-bold "><i class="fa-solid fa-signature"></i> Name
+                                :</label>
+                            <input type="text" class="w-100 form-control log" id="LogName">
+                            <div class=" d-none text-center alert alert-danger mt-3 py-1">
+                                <p class="p-0 m-0">Name is invalid at least three characters</p>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Logemail" class="form-label fw-bold "><i class="fa-solid fa-envelope"></i> Email
+                                address
+                                :</label>
+                            <input type="email" class="w-100 border form-control log" id="Logemail">
+                            <div class="d-none text-center alert alert-danger mt-3 py-1">
+                                <p class="p-0 m-0">Email is invalid </p>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="LogPass" class="form-label fw-bold "><i class="fa-solid fa-lock"></i> Password
+                                :</label>
+                            <input type="password" class="w-100 form-control log" id="LogPass">
+                            <div class=" d-none text-center alert alert-danger mt-3 py-1">
+                                <p class="p-0 m-0"> Minimum eight characters,one uppercase letter, one lowercase letter
+                                    and
+                                    one number</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-info text-light  end-0 px-4 shadow-lg mb-1" id="btnLog">Log
+                        In</button>
+                    <div class=" messagefail d-none alert text-center alert-danger mt-3 py-1">
+                    </div>
+                    <div class=" emailmessage text-center d-none alert alert-danger mt-3 py-1">
+                        Email is <b>exist</b>
+                    </div>
+                    <div class="social pb-4 mt-2 pt-3">
+                        <h3 class="h5 mt-3 ">
+                            Social Accounts
+                        </h3>
+                        <button type="button" class="btn btn-primary text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-facebook"></i> FaceBook</button>
+                        <button type="button" class="btn btn-info text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-twitter"></i> Twitter</button>
+                        <button type="button" class="btn btn-danger text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-google"></i> Google</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="conte" id="signUp">
+        <div class="d-lg-flex">
+            <div class="col-lg-6 back-img text-light vh-100 d-flex align-items-center justify-content-center">
+                <div class="content w-75">
+                    <h1 class="position-relative pb-2 mb-3 fw-lighter">
+                        Hello World!
+                    </h1>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="form pt-2 p-4">
+                    <h2 class="fw-bolder fs-1">
+                        Register
+                    </h2>
+                    <p class="lead">
+                        Don`t have an account? <button class="text-info border-0 bg-transparent fw-lighter loog">Create An
+                            Account</button> , It takes <br> less than minute
+                    </p>
+                    <div class="pt-4 w-100 position-relative">
+                        <div class="mb-5">
+                            <label for="email" class="form-label fw-bold">Email address :</label>
+                            <input type="email" class="w-100 form-control sign"
+                                id="email">
+                        </div>
+                        <div class="mb-5">
+                            <label for="Password" class="form-label fw-bold ">Password :</label>
+                            <input type="password" class="form-control sign w-100"
+                                id="Password">
+                        </div>
+    
+                        <button type="button" class="btn btn-info text-light  end-0 px-4 shadow-lg mb-1" id="btnSign">Sign
+                            Up</button>
+
+                            <div class="alert alert-danger mt-1 text-center py-1 d-none" role="alert">
+                            </div>
+            
+                    </div>
+    
+                    <div class="social pb-3 pt-3">
+                        <h3 class="h5 mt-2 ">
+                            Social Accounts
+                        </h3>
+                        <button type="button" class="btn btn-primary text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-facebook"></i> FaceBook</button>
+                        <button type="button" class="btn btn-info text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-twitter"></i> Twitter</button>
+                        <button type="button" class="btn btn-danger text-light px-3 shadow-lg"> <i
+                                class="fa-brands fa-google"></i> Google</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="home">
+        <nav class="navbar bg-info shadow-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand text-light" href="https://example.com">Hello World</a>
+              <div class="d-flex">
+                <button class="btn btn-outline-light logOut" type="button">Log out</button>
+              </div>
+            </div>
+          </nav>
+          <main class="vh-100 d-flex justify-content-center align-items-center">
+            <div class="welcome w-50 bg-light shadow-lg rounded-5 py-5 bg-opacity-50 text-center">
+                <h1 class="text-info py-lg-5 my-5">
+                    welcome <span class="type fs-1 fw-medium"></span>
+                </h1>
+            </div>
+          </main>
+    </div>
+
+    <!-- js -->
+    <script src="Bootstrab/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- js -->
+     <!-- type.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+
+</html>
